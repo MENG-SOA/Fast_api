@@ -1,0 +1,7 @@
+pip3 install --upgrade pip
+pip3 install zeep  
+pip3 install uvicorn 
+pip3 install fastapi 
+conda create -n mgie python=3.10 -y
+uvicorn Bookapi:app --reload
+uvicorn Bookapi:app --reload
